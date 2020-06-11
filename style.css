@@ -1,0 +1,25 @@
+* {box-sizing: border-box;}
+
+body {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Engineering-pad-simulation.png/800px-Engineering-pad-simulation.png');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.section {
+
+    text-align: center;
+    margin: auto;
+    background-color: rgba(68, 247, 122,0.8);
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
