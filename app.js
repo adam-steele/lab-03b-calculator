@@ -11,7 +11,7 @@ addButt.addEventListener('click', () => {
     const secondValue = Number(inTwo.value);
     const sum = firstValue + secondValue;
 
-    result.textContent = sum;
+    result.textContent = 'Answer = ' + sum;
 
 
 });
@@ -28,7 +28,7 @@ minusButt.addEventListener('click', () => {
     const secondValue = Number(inFour.value);
     const subtract = firstValue - secondValue;
 
-    resultMinus.textContent = subtract;
+    resultMinus.textContent = 'Answer = ' + subtract;
 
 
 });
@@ -46,7 +46,7 @@ multButt.addEventListener('click', () => {
     const secondValue = Number(inSix.value);
     const multiply = firstValue * secondValue;
 
-    resultMult.textContent = multiply;
+    resultMult.textContent = 'Answer = ' + multiply;
 
 
 });
@@ -64,7 +64,7 @@ divButt.addEventListener('click', () => {
     const secondValue = Number(inEight.value);
     const division = firstValue / secondValue;
 
-    resultDiv.textContent = division;
+    resultDiv.textContent = 'Answer = ' + division;
 
 
 });
